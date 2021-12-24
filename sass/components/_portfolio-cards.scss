@@ -26,7 +26,7 @@ transform: translateY(101%);
 transition: transform var(--timing-duration) var(--timing-function);
 }
 
-&__card-link:hover &_card-top-text,
+&__card-link:hover &__card-top-text,
 &__card-link:focus &__card-top-text {
 transform: translateY(0);
 }
@@ -35,8 +35,6 @@ transform: translateY(0);
 &__card-link:focus {
 transition: box-shadow var(--timing-duration) var(--timing-function);
 }
-
-
 
 &__card-item {
   flex-basis: calc(100% / 3 - 30px);

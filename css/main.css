@@ -944,7 +944,7 @@ body {
   transition: transform var(--timing-duration) var(--timing-function);
 }
 
-.work-set__card-link:hover .work-set_card-top-text,
+.work-set__card-link:hover .work-set__card-top-text,
 .work-set__card-link:focus .work-set__card-top-text {
   transform: translateY(0);
 }
