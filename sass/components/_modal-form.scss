@@ -152,10 +152,13 @@ background-color: var(--accent-color);
 border: none;
 }
 
+.modal-check-text span {
+   cursor: pointer;
+}
+
 &__contract {
 text-decoration-line: underline;
 color: var(--accent-color);
 margin-left: 5px;
 }
 }
-

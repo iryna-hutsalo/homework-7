@@ -16,12 +16,23 @@
   padding: 0;
 }
 
-.footer__logo-text {
-  color: var(--primary-white-tx-bg-color);
-  font-size: 26px;
+.logo-footer {
+  margin-bottom: 20px;
+  display: block;
 }
+
+.footer .logo-link {
+  margin-right: 0;
+}
+
+
 
 .header__logo-text {
   color: var(--primary-text-color);
+  font-size: 26px;
+}
+
+.footer--white-logo-text {
+  color: var(--primary-white-tx-bg-color);
   font-size: 26px;
 }
